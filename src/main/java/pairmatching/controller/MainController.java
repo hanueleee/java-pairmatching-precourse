@@ -10,9 +10,10 @@ import pairmatching.view.OutputView;
 public class MainController {
     private final InputView inputView = new InputView();
     private final OutputView outputView = new OutputView();
-    private final PairMatcher pairMatcher = new PairMatcher();
-    private final PairFinder pairFinder = new PairFinder();
-    private final PairInitializer pairInitializer = new PairInitializer();
+    private final PairRecordRepository pairRecordRepository = new PairRecordRepository();
+    private final PairMatcher pairMatcher = new PairMatcher(pairRecordRepository);
+    private final PairFinder pairFinder = new PairFinder(pairRecordRepository);
+    private final PairInitializer pairInitializer = new PairInitializer(pairRecordRepository);
 
     public void programRun() {
         String option = "";
