@@ -38,12 +38,12 @@
     - [x] 매칭하고자 하는 과정, 레벨, 미션 입력 받기 - InputView#readCourseAndMission
       - [ ] 예외처리 - InputValidator#validateCourseAndMissionCommand
     - [x] 페어 매칭 기록이 있는지 확인 - PairMatcher#hasMatchRecord
-    - [x] 매칭 기록ㅌ 있을 경우
+    - [x] 매칭 기록 있을 경우
       - [x] 매칭 재시도 안내 문구 출력 - OutputView#printRematch
       - [x] 매칭 재시도 의사 입력받기 - InputView#readRematch
         - [ ] 예외처리 - InputValidator#validateRematchCommand
   - [ ] 매칭 수행 - PairMatcher#match
-    - [ ] 파일 입출력을 통해 필요한 크루들의 이름을 불러오기 (List<String> 형태로)
+    - [x] 파일 입출력을 통해 필요한 크루들의 이름을 불러오기 (List<String> 형태로)
     - [ ] 페어 제작 - PairGenerator
       - [ ] 크루 목록의 순서를 랜덤으로 섞는다 (shuffle 사용)
       - [ ] 랜덤으로 섞인 페어 목록에서 앞에서부터 두명씩 페어를 맺는다
