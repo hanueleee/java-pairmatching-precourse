@@ -21,6 +21,8 @@ public class InputView {
     }
 
     public String readRematch() {
-        return null;
+        String command = Console.readLine();
+        inputValidator.validateRematchCommand(command);
+        return command;
     }
 }

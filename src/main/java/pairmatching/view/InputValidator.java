@@ -6,4 +6,7 @@ public class InputValidator {
 
     public void validateCourseAndMissionCommand(String command) {
     }
+
+    public void validateRematchCommand(String command) {
+    }
 }

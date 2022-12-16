@@ -39,7 +39,8 @@
   - [ ] 페어 매칭 기록이 있는지 확인 - PairMatcher#hasMatchRecord
     - [ ] 매칭 정보가 있을 경우
       - [x] 매칭 재시도 안내 문구 출력 - OutputView#printRematch
-      - [ ] 매칭 재시도 의사 입력받기 - InputView#readRematch
+      - [x] 매칭 재시도 의사 입력받기 - InputView#readRematch
+        - [ ] 예외처리 - InputValidator#validateRematchCommand
         - [ ] 매칭 재시도 yes : 매칭 수행 - PairMatcher#match
         - [ ] 매칭 재시도 no : 매칭하고자 하는 과정, 레벨, 미션 입력 받기 - InputView#readCourseAndMission
   - [ ] 매칭 수행 - PairMatcher#match
