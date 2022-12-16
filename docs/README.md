@@ -29,7 +29,8 @@
 
 - [ ] 기능 선택
   - [x] 기능 종류 출력 - OutputView#printOption
-  - [ ] 기능 중 하나의 입력 받기 - InputView#readOption
+  - [x] 기능 중 하나의 입력 받기 - InputView#readOption
+  - [ ] 예외처리 - InputValidator#validateOptionCommand
   
 - [ ] 페어 매칭 선택 - PairMatcher
   - [x] 과정과 미션 출력 - OutputView#printCourseAndMission
