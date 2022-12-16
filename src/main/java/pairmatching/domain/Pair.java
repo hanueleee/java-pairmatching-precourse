@@ -1,19 +1,30 @@
 package pairmatching.domain;
 
-class Pair {
-    private int x;
-    private int y;
+public class Pair {
+    private String crew1 = "";
+    private String crew2 = "";
+    private String crew3 = "";
 
-    Pair(int x, int y) {
-        this.x = x;
-        this.y = y;
+    Pair(String crew1, String crew2) {
+        this.crew1 = crew1;
+        this.crew2 = crew2;
     }
 
-    public int getX(){
-        return x;
+    public Pair(String crew1, String crew2, String crew3) {
+        this.crew1 = crew1;
+        this.crew2 = crew2;
+        this.crew3 = crew3;
     }
 
-    public int getY(){
-        return y;
+    public String getCrew1() {
+        return crew1;
+    }
+
+    public String getCrew2() {
+        return crew2;
+    }
+
+    public String getCrew3() {
+        return crew3;
     }
 }

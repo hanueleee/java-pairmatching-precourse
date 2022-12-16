@@ -54,6 +54,7 @@
     - [ ] 페어 검증 실패 -> 크루 목록 다시 섞어서 매칭 시도
       - [ ] 3회 시도까지 매칭이 되지 않으면 에러 메시지 출력 - OutputView#printError ([ERROR] 매칭에 실패하였습니다.)
     - [ ] 매칭 할 수 있는 경우의 수가 없으면 에러 메시지 출력 - OutputView#printError ([ERROR] 매칭 할 수 있는 경우의 수가 없습니다.)
+  - [x] 매칭 결과 출력 - OutputView#printMissionPair
 
 - [ ] 페어 조회 선택 - PairFinder
     - [x] 과정과 미션 출력 - OutputView#printCourseAndMission
