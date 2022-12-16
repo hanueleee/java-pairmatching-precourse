@@ -65,7 +65,7 @@
   
 - [ ] 페어 초기화 선택 - PairInitializer
     - [ ] 모든 미션의 페어 초기화 - PairRecordRepository#deleteAll
-    - [ ] 초기화 완료 문구 출력 - OutputView#printResetComplete
+    - [x] 초기화 완료 문구 출력 - OutputView#printResetComplete
   
 - [ ] 종료 선택
 

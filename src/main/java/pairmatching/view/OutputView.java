@@ -24,8 +24,8 @@ public class OutputView {
             "ex) 백엔드, 레벨1, 자동차경주";
 
     public final String ASK_REMATCH = "매칭 정보가 있습니다. 다시 매칭하시겠습니까?\n네 | 아니오";
-    public final String RESULT = "페어 매칭 결과입니다";
-
+    public final String RESULT = "페어 매칭 결과입니다.";
+    public final String RESET = "초기화 되었습니다.";
     public void printOption() {
         System.out.println(OPTION);
     }
@@ -50,10 +50,10 @@ public class OutputView {
     }
 
     public void printError(Exception e) {
-
+        System.out.println(e.getMessage());
     }
 
     public void printResetComplete() {
-
+        System.out.println(RESET);
     }
 }
