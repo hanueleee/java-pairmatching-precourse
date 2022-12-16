@@ -28,7 +28,7 @@
 ---
 
 - [ ] 기능 선택
-  - [ ] 기능 종류 출력 - OutputView#printOption
+  - [x] 기능 종류 출력 - OutputView#printOption
   - [ ] 기능 중 하나의 입력 받기 - InputView#readOption
   
 - [ ] 페어 매칭 선택 - PairMatcher
