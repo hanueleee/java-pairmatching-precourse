@@ -12,6 +12,11 @@ public class PairRecordRepository {
     }
 
     public PairRecord findByMission(String mission) {
+        for (PairRecord pairRecord : pairRecords) {
+            if (pairRecord.getMission().equals(mission)) {
+                return pairRecord;
+            }
+        }
         return null;
     }
 

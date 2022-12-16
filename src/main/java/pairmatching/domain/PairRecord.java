@@ -17,4 +17,20 @@ public class PairRecord {
         this.mission = mission;
         this.pairs = pairs;
     }
+
+    public Course getCourse() {
+        return course;
+    }
+
+    public Level getLevel() {
+        return level;
+    }
+
+    public String getMission() {
+        return mission;
+    }
+
+    public List<Pair> getPairs() {
+        return pairs;
+    }
 }
