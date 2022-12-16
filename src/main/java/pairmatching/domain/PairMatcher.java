@@ -62,12 +62,16 @@ public class PairMatcher {
         Level level = Level.valueOf(inputs.get(1));
         String mission = inputs.get(2);
 
+        List<String> crewNames = new ArrayList<>();
         try {
-            List<String> crewNames = getCrewNames(course.getLabel());
+            crewNames = getCrewNames(course.getLabel());
         } catch (Exception e) {
             System.out.println("[ERROR] 파일에 문제가 있습니다.");
         }
         
+        PairGenerator pairGenerator = new PairGenerator(crewNames);
+        List<Pair> createdPair = pairGenerator.createPair();
+
     }
 
     public List<String> getCrewNames(String course) throws Exception {

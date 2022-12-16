@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pairmatching.PairGeneratorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-16T10:47:40" hostname="ihaneul-ui-MacBookAir.local" time="0.025">
+  <properties/>
+  <testcase name="페어_제작()" classname="pairmatching.PairGeneratorTest" time="0.025"/>
+  <system-out><![CDATA[대남태섭
+치수준호
+달재한나
+태웅덕규
+용팔대만
+수겸태산
+구식경태
+백호현준
+대협메롱
+준섭호열소연
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

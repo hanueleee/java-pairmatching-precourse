@@ -44,10 +44,10 @@
         - [ ] 예외처리 - InputValidator#validateRematchCommand
   - [ ] 매칭 수행 - PairMatcher#match
     - [x] 파일 입출력을 통해 필요한 크루들의 이름을 불러오기 (List<String> 형태로)
-    - [ ] 페어 제작 - PairGenerator
-      - [ ] 크루 목록의 순서를 랜덤으로 섞는다 (shuffle 사용)
-      - [ ] 랜덤으로 섞인 페어 목록에서 앞에서부터 두명씩 페어를 맺는다
-      - [ ] 홀수인 경우 마지막 남은 크루는 마지막 페어에 포함시킨다
+    - [x] 페어 제작 - PairGenerator#createPair
+      - [x] 크루 목록의 순서를 랜덤으로 섞는다 (shuffle 사용)
+      - [x] 랜덤으로 섞인 페어 목록에서 앞에서부터 두명씩 페어를 맺는다
+      - [x] 홀수인 경우 마지막 남은 크루는 마지막 페어에 포함시킨다
     - [ ] 페어 검증 - PairValidator
       - [ ] 같은 레벨에서 이미 페어로 만난적이 있는 크루끼리 다시 페어로 매칭 되었는지 확인 - PairValidator#check
         - [ ] 같은 레벨의 모든 페어매칭 기록 조회 - PairRecordRepository#findByLevel
