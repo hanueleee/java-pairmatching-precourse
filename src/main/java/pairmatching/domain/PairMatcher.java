@@ -19,7 +19,7 @@ public class PairMatcher {
 
     public void run() {
         outputView.printCourseAndMisson();
-        prepareMatch();
+        List<String> inputs = prepareMatch();
 
     }
 

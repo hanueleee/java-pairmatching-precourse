@@ -34,11 +34,11 @@
   
 - [ ] 페어 매칭 선택 - PairMatcher
   - [x] 과정과 미션 출력 - OutputView#printCourseAndMission
-  - [ ] 매칭 준비 - PairMatcher#prepareMatch
+  - [x] 매칭 준비 - PairMatcher#prepareMatch
     - [x] 매칭하고자 하는 과정, 레벨, 미션 입력 받기 - InputView#readCourseAndMission
       - [ ] 예외처리 - InputValidator#validateCourseAndMissionCommand
     - [x] 페어 매칭 기록이 있는지 확인 - PairMatcher#hasMatchRecord
-    - [x] 매칭 기록이 있을 경우
+    - [x] 매칭 기록ㅌ 있을 경우
       - [x] 매칭 재시도 안내 문구 출력 - OutputView#printRematch
       - [x] 매칭 재시도 의사 입력받기 - InputView#readRematch
         - [ ] 예외처리 - InputValidator#validateRematchCommand
