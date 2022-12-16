@@ -32,7 +32,7 @@
   - [ ] 기능 중 하나의 입력 받기 - InputView#readOption
   
 - [ ] 페어 매칭 선택 - PairMatcher
-  - [ ] 과정과 미션 출력 - OutputView#printCourseAndMission
+  - [x] 과정과 미션 출력 - OutputView#printCourseAndMission
   - [ ] 매칭하고자 하는 과정, 레벨, 미션 입력 받기 - InputView#readCourseAndMission
   - [ ] 페어 매칭 기록이 있는지 확인 - PairMatcher#hasMatchRecord
     - [ ] 매칭 정보가 있을 경우
@@ -56,7 +56,7 @@
     - [ ] 매칭 할 수 있는 경우의 수가 없으면 에러 메시지 출력 - OutputView#printError ([ERROR] 매칭 할 수 있는 경우의 수가 없습니다.)
 
 - [ ] 페어 조회 선택 - PairFinder
-    - [ ] 과정과 미션 출력 - OutputView#printCourseAndMission
+    - [x] 과정과 미션 출력 - OutputView#printCourseAndMission
     - [ ] 조회하고자 하는 과정, 레벨, 미션 입력 받기 - InputView#readCourseAndMission
     - [ ] 페어 매칭 기록이 있는지 확인 - PairRecordRepository#findByMission
       - [ ] 있을 경우 : 해당 미션의 페어 출력 - OutputView#printMissionPair
