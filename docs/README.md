@@ -30,11 +30,12 @@
 - [ ] 기능 선택
   - [x] 기능 종류 출력 - OutputView#printOption
   - [x] 기능 중 하나의 입력 받기 - InputView#readOption
-  - [ ] 예외처리 - InputValidator#validateOptionCommand
+    - [ ] 예외처리 - InputValidator#validateOptionCommand
   
 - [ ] 페어 매칭 선택 - PairMatcher
   - [x] 과정과 미션 출력 - OutputView#printCourseAndMission
-  - [ ] 매칭하고자 하는 과정, 레벨, 미션 입력 받기 - InputView#readCourseAndMission
+  - [x] 매칭하고자 하는 과정, 레벨, 미션 입력 받기 - InputView#readCourseAndMission
+    - [ ] 예외처리 - InputValidator#validateCourseAndMissionCommand
   - [ ] 페어 매칭 기록이 있는지 확인 - PairMatcher#hasMatchRecord
     - [ ] 매칭 정보가 있을 경우
       - [x] 매칭 재시도 안내 문구 출력 - OutputView#printRematch
